@@ -24,7 +24,7 @@ namespace WPFSpotifyClone.MVVM.ViewModel
         void PopulateCollection()
         {
             var client = new RestClient();
-            client.Authenticator = new OAuth2AuthorizationRequestHeaderAuthenticator("BQBQ7H1POMkx6mkdeKN61HqoZnaAd0viPTpicXhKOZjNnIzRBAS5ojbyKz-rd6qroR9gY_PLqFF4aZd0T-sSLa4wtOSHP5DnEzBJpU69IRN75BDtb3jPpgkqkskcVPSAdCno_N1riSpWY6o", "Bearer");
+            client.Authenticator = new OAuth2AuthorizationRequestHeaderAuthenticator("BQC1sQRt0SfOvgRd6p7jdxrXqKHLlop0d9mFMaiCChjAEzfyol7BjNtc2NYzYpavZgNLKSKR8OXdfHKF4JLs-DDXZsQzwhs9TNN8nj-Sl1_12gxrmGpFDdbOZKyyBt12FP2Ud9HuzSfTiFI", "Bearer");
 
             var request = new RestRequest("https://api.spotify.com/v1/browse/new-releases", Method.Get);
             request.AddHeader("Accept", "application/json");  
