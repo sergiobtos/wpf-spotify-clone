@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+21lQJvi+sNVN7J18qhJf+84FxBlXIKFotjaeIbxw5LmZMZSkXFcB0goqfc2KcPgZJAPuaaZVSwKzOHPkaXM7A==",
+  "success": true,
+  "projectFilePath": "C:\\C\\WPFSpotifyClone\\WPFSpotifyClone\\WPFSpotifyClone.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sergi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\sergi\\.nuget\\packages\\restsharp\\107.3.0\\restsharp.107.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
